@@ -30,7 +30,7 @@
                         <div><h1>ЯК РЕПЕТИТОРУ ЗАРОБЛЯТИ ВІД 1000 грн ЗА УРОК</h1></div>
                     </div>
                     <!--<img src="./assets/img/s1.webp" alt="Заголовок сайту" class="img-fluid">-->
-                    <p>Тижневий курс з 7 відеолекцій<br>і 7 практичних завдань,<br>який допоможе перейти від<br>індивідуальних занять на групові</p>
+                    <p style="text-align: left;">Тижневий курс з 7 відеолекцій і 7 практичних завдань, який допоможе перейти від індивідуальних занять на групові</p>
                     <a style="display: inline-block; text-align: center;" href="https://secure.wayforpay.com/button/ba2239f24c171"> Прийняти участь зі <span>знижкою 70%</span></a>
                     <p>🎁: бонусний урок <b>"Як знайти нових учнів"</b></p>
                     <img data-src="./assets/img/arr.png" class=" lazyloaded" src="./assets/img/arr.png">
@@ -74,13 +74,7 @@
             }
         }
     </style>
-    <div class="container-">
-        <div class="content">
-        </div>
-        <div class="sticky-block" style="background-color: #1e52ff;">
-            <a href="https://secure.wayforpay.com/button/ba2239f24c171" style="text-align: center;">Прийняти участь зі знижкою 70%</a>
-        </div>
-    </div>
+
     <section class="s3 container">
         <div class="mr-5">
             <h2><span>Курс для вас, якщо ви:</span></h2>
@@ -145,6 +139,57 @@
             </div>
         </div>
     </section>
+    <style>
+        .container-foot {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .content-foot {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sticky-blocky {
+            text-align: center;
+            background-color: #1e52ff;
+            padding: 10px;
+            color: white;
+            position: sticky;
+            bottom: 0;
+            z-index: 999;
+        }
+
+        /* Адаптив для телефону */
+        @media (max-width: 767px) {
+            .sticky-blocky {
+                position: fixed;
+                width: 100%;
+                left: 0;
+            }
+
+            .sticky-blocky a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+
+            .sticky-blocky span {
+                display: block;
+            }
+        }
+    </style>
+    <div class="container-foot">
+        <div class="content-foot">
+            <!-- Ваш вміст -->
+        </div>
+        <div class="sticky-blocky">
+            <a href="https://secure.wayforpay.com/button/ba2239f24c171"> Прийняти участь зі <span>знижкою 70%</span></a>
+        </div>
+    </div>
     <style>
         /* Основні стилі для блока */
         .active-block- .blockProfits- {
@@ -221,6 +266,7 @@
                 font-size: 16px;
             }
         }
+        
     </style>
     <div class="active-block- blockProfits- container" id="profits-34801" data-block-id="34801" data-type="profits">
         <div class="row block-title- text-md-left-">
@@ -287,9 +333,9 @@
     </div>
     <section class="s4 s4_2">
         <div class="container">
-            <h2 style="text-align: center;"><span>Результати курсу:</span></h2>
+            <h2><span>Результати курсу:</span></h2>
             <p class="lbl" style="font-weight: 700; font-size: 15px;">Ведення групових занять дало мені і моїм колегам такі результати:</p>
-            <div class="content" style="font-size: 16px;">
+            <div class="content" style="font-size: 15px;">
                 <p>— Дохід до 100тис грн/місяць</p>
                 <p>— Свобода від "важких", виснажуючих учнів</p>
                 <p>— Можливість приділяти час сім'ї та хоббі</p>
@@ -449,7 +495,6 @@
                           <div class="min"><div class="dial" id="minutes">00</div>хвилин</div>
                           <div class="sec"><div class="dial" id="seconds">00</div>секунд</div>
                         </div>
-                        <p><b>Ви нічим не ризикуєте...</b></p>
                     </div>
                 </div>
             </div>
